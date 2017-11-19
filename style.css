@@ -1,0 +1,144 @@
+body
+{
+    background-color: #98fb98;
+}
+#gallery 
+{
+	width: 100%;
+/*
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+*/
+    margin: 0 auto;
+	text-align: center;
+/*    border: 1px solid white;*/
+    height: 433px;
+
+    
+}
+
+.box
+{
+    position: relative;
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+/*    float: left;*/
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+/*    border: 1px solid red;*/
+    margin: 10px;
+    
+}
+
+#produkt-1 
+{
+    background-image: url('img/product-1.jpg');
+    height: 70%;
+/*    background-position: center;*/
+}
+
+
+#produkt-2 
+{
+    background-image: url('img/product-2.jpg');
+    height: 70%;
+}
+
+#produkt-3 
+{
+    background-image: url('img/product-3.jpg');
+    height: 70%;
+}
+#produkt-4 
+{
+    background-image: url('img/product-4.jpg');
+    height: 70%;
+}
+
+
+.box .mask {
+    height: 100%;
+    background-color: #ff6f00;
+    opacity: 0;
+    transition: all 0.4s;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box .mask:hover {
+    opacity: 0.5;
+}
+
+.box a {
+    color: pink;
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.box a:hover {
+    color: #333;
+}
+
+.box .portfolio-item-content
+{
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+
+/*
+portfolio-item {
+    height: 433px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    float: left;
+    width: 33.33333%;
+}
+
+.portfolio-item .portfolio-item-mask {
+    height: 100%;
+    background-color: rgba(42, 61, 79, 0.8);
+    opacity: 0;
+    transition: all 0.4s;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.portfolio-item .portfolio-item-mask:hover {
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-item-border {
+    border: 1px solid #FFF;
+    height: 100%;
+    position: relative;
+}
+
+.portfolio-item .portfolio-item-content {
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+*/
